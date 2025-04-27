@@ -32,7 +32,7 @@
     <!-- Main Content -->
     <main class="mx-auto max-w-screen-xl px-16 lg:px-28">
       <!-- header section -->
-      <header class="flex pt-10 pb-20">
+      <header class="lg:flex pt-10 pb-20">
         <!-- text content -->
         <div>
           <h1 class="text-7xl font-bold">
@@ -52,26 +52,83 @@
             Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i>
           </button>
         </div>
-        <!-- image content -->
-        <div>
-          <img class="w-full" src="./images/banner.png" alt="" />
-        </div>
-        <!-- card -->
-
-        <div
-          class="absolute flex items-center bg-white rounded-lg px-2 py-2 md:px-10 md:py-4 top-28 md:top-65 lg:top-80 md:left-[25rem] lg:left-[45rem] shadow-lg"
-        >
-          <!-- icon -->
+        <div class="relative">
+          <!-- image content -->
           <div>
-            <i class="fa-solid text-xl mr-2 fa-star text-orange-500"></i>
+            <img class="w-full" src="./images/banner.png" alt="" />
           </div>
-          <!-- text -->
-          <div class="mt-2">
-            <h3 class="lg:text-2xl font-bold">5.00</h3>
-            <p class="text-gray-500">Trust Pilot Ratings</p>
+          <!-- card -->
+          <div
+            class="absolute flex items-center bg-white rounded-lg px-2 py-2 md:px-10 lg:py-4 top-28 md:top-80 md:left-32 lg:left-28 shadow-lg"
+          >
+            <!-- icon -->
+            <div>
+              <i class="fa-solid text-xl mr-2 fa-star text-orange-500"></i>
+            </div>
+            <!-- text -->
+            <div class="mt-2">
+              <h3 class="lg:text-2xl font-bold">5.00</h3>
+              <p class="text-gray-500">Trust Pilot Ratings</p>
+            </div>
           </div>
         </div>
       </header>
+
+      <!-- featured product section -->
+      <section class="py-8 lg:py-24">
+        <!-- title -->
+        <div class="text-center mb-8">
+          <h2 class="text-3xl md:text-4xl font-bold mb-5">
+            Our Featured Products
+          </h2>
+          <p class="text-gray-700 max-w-3xl mx-auto">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
+        </div>
+        <!-- grid cards -->
+        <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-6 my-12 text-center">
+          <!-- product card -->
+          <div class="bg-[#FAFAFA] rounded-xl overflow-hidden">
+            <img class="mx-auto pt-4" src="./images/tea-1.png" alt="" />
+            <div class="p-4">
+              <h4 class="text-xl font-bold">Milk Tea</h4>
+              <p class="text-gray-600">
+                Creamer could be replaced by fresh milk
+              </p>
+            </div>
+          </div>
+          <div class="bg-[#FAFAFA] rounded-xl overflow-hidden">
+            <img class="mx-auto pt-4" src="./images/tea-2.png" alt="" />
+            <div class="p-4">
+              <h4 class="text-xl font-bold">Black Tea</h4>
+              <p class="text-gray-600">
+                Creamer could be replaced by fresh milk
+              </p>
+            </div>
+          </div>
+          <div class="bg-[#FAFAFA] rounded-xl overflow-hidden">
+            <img class="mx-auto pt-4" src="./images/tea-3.png" alt="" />
+            <div class="p-4">
+              <h4 class="text-xl font-bold">Lemon Tea</h4>
+              <p class="text-gray-600">
+                Creamer could be replaced by fresh milk
+              </p>
+            </div>
+          </div>
+          <div class="bg-[#FAFAFA] rounded-xl overflow-hidden">
+            <img class="mx-auto pt-4" src="./images/tea-4.png" alt="" />
+            <div class="p-4">
+              <h4 class="text-xl font-bold">Green Tea</h4>
+              <p class="text-gray-600">
+                Creamer could be replaced by fresh milk
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
